@@ -18,14 +18,26 @@ export default function App() {
   return (
     <Provider>
       <NavigationContainer>
-        <Stack.Navigator screenOptions={{ headerTitle: "Blog Uygulaması" }}>
+        <StatusBar style="dark" backgroundColor="#fff" />
+        <Stack.Navigator
+          screenOptions={{
+            headerTitle: "Blog Uygulaması",
+            headerStyle: {
+              backgroundColor: "#b789cd",
+            },
+            headerTintColor: "white",
+            headerTitleStyle: {
+              fontWeight: "700",
+            },
+          }}
+        >
           <Stack.Screen
             name="Home"
             component={HomeScreen}
             options={({ navigation }) => ({
               headerRight: () => (
                 <TouchableOpacity onPress={() => navigation.navigate("Create")}>
-                  <AntDesign name="plus" size={24} color="black" />
+                  <AntDesign name="plus" size={24} color="#833baa" />
                 </TouchableOpacity>
               ),
             })}
@@ -41,7 +53,7 @@ export default function App() {
                     navigation.navigate("Edit", { id: route.params.id })
                   }
                 >
-                  <Feather name="edit-2" size={24} color="black" />
+                  <Feather name="edit-2" size={24} color="#833baa" />
                 </TouchableOpacity>
               ),
             })}

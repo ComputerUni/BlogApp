@@ -31,15 +31,19 @@ const styles = StyleSheet.create({
   },
   container: {
     borderWidth: 1,
+    borderColor: "#833baa",
     marginBottom: 10,
     borderRadius: 30,
     alignItems: "center",
     width: "90%",
   },
   label: {
-    fontSize: 30,
+    fontSize: 16,
+    fontWeight: "bold",
+    color: "#b789cd",
   },
   content: {
     fontSize: 18,
+    color: "#b789cd",
   },
 });

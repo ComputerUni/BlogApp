@@ -53,37 +53,45 @@ export default function BlogPostForm({ onSubmit, initialValues, isEditable }) {
 
 const styles = StyleSheet.create({
   main: {
-    marginTop: 10,
+    flex: 1,
+    backgroundColor: "#f6f1fa",
+    paddingTop: 20,
   },
   label: {
     fontSize: 13,
     fontWeight: "500",
     color: "#9d62bc",
     marginLeft: 10,
-    marginTop: 4,
+    marginTop: 5,
   },
 
   container: {
-    flexDirection: "column",
-    gap: 10,
+    // backgroundColor: "#f3e8fb",
+    // elevation: 2,
+    marginHorizontal: 12,
+    paddingVertical: 12,
+    borderRadius: 24,
+    gap: 12,
   },
 
   titleContainer: {
     marginHorizontal: 8,
-    borderWidth: 1,
+    borderWidth: 0.5,
     borderColor: "#833baa",
     borderRadius: 22,
   },
 
   contentContainer: {
     marginHorizontal: 8,
-    borderWidth: 1,
+    borderWidth: 0.5,
     borderColor: "#833baa",
     borderRadius: 22,
   },
+
   input: {
     marginLeft: 8,
     color: "#b789cd",
+    fontSize: 14,
   },
 
   buttonMain: {
