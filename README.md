@@ -125,8 +125,3 @@ npx expo start
 -   **Ana Ekran**: Tüm blog yazılarının listesini görüntüler. Bir yazıyı silmek için çöp kutusu simgesini 🗑️ kullanın.
 -   **Yazı Ekle**: "Create" (Oluştur) ekranına gitmek için üst başlıktaki **+** simgesine dokunun.
 -   **Yazı Düzenle**: Detayları görmek için herhangi bir blog yazısına dokunun, ardından düzenlemek için üst başlıktaki kalem simgesine ✏️ dokunun.
-
-
-## 📄 Lisans
-
-Bu proje açık kaynaklıdır ve [MIT Lisansı](LICENSE) altında sunulmaktadır.
